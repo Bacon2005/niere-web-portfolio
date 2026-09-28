@@ -3,6 +3,8 @@
 import { useActionState } from "react";
 import { createProject } from "./actions";
 
+// This form collects the project data from the admin user and submits it to the server action.
+// The server action validates, uploads the image, and saves the row to the database.
 export function NewProjectForm() {
   const [state, action, pending] = useActionState(createProject, {
     message: "",

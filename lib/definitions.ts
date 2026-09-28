@@ -1,5 +1,7 @@
 import * as z from "zod";
 
+// This validates the form values before they are saved to the database.
+// It prevents empty fields, bad years, missing images, and invalid file types.
 export const ProjectPostSchema = z.object({
   title: z
     .string()

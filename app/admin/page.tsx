@@ -2,6 +2,8 @@ import { verifyAdmin } from "@/lib/dal";
 import { signOut } from "./actions";
 import { NewProjectForm } from "./new-project-form";
 
+// This is the admin screen where a logged-in admin creates a new project card.
+// The page first verifies the user is an admin before showing the form.
 export default async function AdminPage() {
   const admin = await verifyAdmin();
 
