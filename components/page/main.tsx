@@ -2,10 +2,6 @@
 import { Alfa_Slab_One, Nunito_Sans } from "next/font/google";
 import { ArrowRight, Download } from "lucide-react";
 import SocialLink from "@/components/socialLink";
-import NavLink from "@/components/navLinks";
-
-import { useState } from "react";
-import * as motion from "motion/react-client";
 
 const alfa_Slab_One = Alfa_Slab_One({
   subsets: ["latin"],
