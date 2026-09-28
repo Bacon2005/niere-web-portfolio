@@ -21,16 +21,16 @@ export default function NavBar() {
 
       {/* Nav items — using your existing NavLink, just placeholder squares as children for now */}
       <ul className="flex flex-col gap-10 items-center">
-        <NavLink href="#main">
+        <NavLink href="/#main">
           <Home size={30} />
         </NavLink>
-        <NavLink href="#about">
+        <NavLink href="/#about">
           <User size={30} />
         </NavLink>
-        <NavLink href="#projects">
+        <NavLink href="/#projects">
           <Gpu size={30} />
         </NavLink>
-        <NavLink href="#contact">
+        <NavLink href="/#contact">
           <Mail size={30} />
         </NavLink>
       </ul>

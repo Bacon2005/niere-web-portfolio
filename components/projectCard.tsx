@@ -25,7 +25,7 @@ export default function ProjectCard({
       className="bg-surface-2 rounded-3xl mt-8"
     >
       <Image
-        src={`/assets/photos/projectImages/${image}`}
+        src={image}
         width={500}
         height={230}
         alt="Profile"
