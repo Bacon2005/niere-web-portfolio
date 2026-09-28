@@ -1,6 +1,7 @@
 //Components
 "use client";
 import Main from "@/components/page/main";
+import Contact from "@/components/page/contact";
 import Subtitle from "@/components/subtitle";
 import ToolShowcase from "@/components/toolShowcase";
 import ProjectCard from "@/components/projectCard";
@@ -259,6 +260,10 @@ export default function Home() {
               />
             </div>
           </div>
+        </section>
+
+        <section id="contact" className="flex flex-col gap-8">
+          <Contact />
         </section>
       </div>
     </>

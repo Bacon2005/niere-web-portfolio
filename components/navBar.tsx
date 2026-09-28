@@ -30,7 +30,7 @@ export default function NavBar() {
         <NavLink href="#projects">
           <Gpu size={30} />
         </NavLink>
-        <NavLink href="">
+        <NavLink href="#contact">
           <Mail size={30} />
         </NavLink>
       </ul>
